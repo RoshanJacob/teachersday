@@ -1,0 +1,43 @@
+h2 {
+  margin: 20px;
+  padding-left: 450px;
+  color: blueviolet;
+  background-color: snow;
+}
+.image p {
+  color: chartreuse;
+}
+* {
+  border: solid;
+  border-color: brown;
+  background-color: skyblue;
+}
+.image {
+  display: flex;
+  justify-content: center;
+  background-color: springgreen;
+}
+.image {
+  position: relative;
+}
+
+.image p {
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-60%, -50%);
+}
+.image:hover img {
+  opacity: 0.23333;
+}
+.image:hover p {
+  opacity: 1;
+}
+.greetings {
+  display: flex;
+  justify-content: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: 50px;
+}
